@@ -1,20 +1,19 @@
-# Dependencies
-node_modules/
+# Ignore system files
+.DS_Store
+Thumbs.db
 
-# Environment files
-.env
-.env.*
-!.env.example
-
-# Build and coverage output
-dist/
-build/
-coverage/
-
-# Local tooling and editor files
+# Ignore editor settings
 .vscode/
 .idea/
 
-# Operating-system files
-.DS_Store
-Thumbs.db
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore executables and binaries
+*.exe
+*.dll
+*.cmd
+
+# Ignore package folders (if ever created)
+node_modules/
